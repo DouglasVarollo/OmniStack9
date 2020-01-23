@@ -48,7 +48,7 @@ function SpotList({tech, navigation}) {
             <Image
               style={styles.thumbnail}
               source={{
-                uri: item.thumbnail_url.replace('localhost', '192.168.1.5'),
+                uri: item.thumbnail_url.replace('localhost', '192.168.1.6'),
               }}
             />
             <Text style={styles.company}>{item.company}</Text>
